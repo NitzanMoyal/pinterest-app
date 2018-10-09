@@ -13,7 +13,7 @@ class App extends Component {
   }  
 
 componentDidMount(){
-  fetch("http://localhost:9090/api/pins")
+  fetch("/api/pins")
   .then(response => response.json())
   .then(data => this.setState({
     pins: [...this.state.pins, ...data]
