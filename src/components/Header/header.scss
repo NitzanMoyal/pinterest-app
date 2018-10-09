@@ -1,0 +1,20 @@
+.header{
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: sticky;
+    width: 100%;   
+    z-index: 671;
+    border-bottom: 1px solid rgb(230, 230, 230);
+   // border-bottom-color: rgb(211, 211, 211);
+   margin-bottom: 1rem;
+}        
+
+.header-items{
+    width: 90%;   
+
+}
