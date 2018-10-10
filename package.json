@@ -44,6 +44,9 @@
     "eject": "react-scripts eject"
   },
   "proxy": "http://localhost:9090",
-  "HOST": "https://my-pinterest-app.herokuapp.com/"
+  "devDependencies": {
+    "dotenv": "^6.1.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
 }
-
