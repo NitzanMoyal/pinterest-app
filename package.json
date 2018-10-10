@@ -42,12 +42,15 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
 <<<<<<< HEAD
+<<<<<<< HEAD
   },
   "proxy": "http://localhost:9090",
   "devDependencies": {
     "dotenv": "^6.1.0",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2"
+=======
+>>>>>>> parent of 8d7d96f... add proxy
 =======
 >>>>>>> parent of 8d7d96f... add proxy
   }
