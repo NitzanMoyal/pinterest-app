@@ -30,8 +30,7 @@
     "react-native-masonry": "^0.5.0-alpha.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
-    "react-stack-grid": "^0.7.1",
-    "webpack-dev-server": "^3.1.9"
+    "react-stack-grid": "^0.7.1"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
@@ -42,11 +41,14 @@
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+<<<<<<< HEAD
   },
   "proxy": "http://localhost:9090",
   "devDependencies": {
     "dotenv": "^6.1.0",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2"
+=======
+>>>>>>> parent of 8d7d96f... add proxy
   }
 }
