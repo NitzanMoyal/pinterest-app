@@ -13,9 +13,8 @@ class App extends Component {
   }  
 
 componentDidMount(){
-  debugger
   fetch("/api/pins")
-  .then(response => response.json())
+  .then (response => response.json())
   .then(data => this.setState({
     pins: [...this.state.pins, ...data]
 }))};
